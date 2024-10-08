@@ -51,11 +51,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng frutosbosque4 = new LatLng(-36.615204, -72.105043);
         LatLng frutosbosque5 = new LatLng(-36.612379, -72.108004);
 
-        mMap.addMarker(new MarkerOptions().position(frutosbosque).title("frutos del bosque"));
-        mMap.addMarker(new MarkerOptions().position(frutosbosque2).title("frutos del bosque"));
-        mMap.addMarker(new MarkerOptions().position(frutosbosque3).title("frutos del bosque"));
-        mMap.addMarker(new MarkerOptions().position(frutosbosque4).title("frutos del bosque"));
-        mMap.addMarker(new MarkerOptions().position(frutosbosque5).title("frutos del bosque"));
+        mMap.addMarker(new MarkerOptions().position(frutosbosque).title("Tienda De Frutos Del Bosque"));
+        mMap.addMarker(new MarkerOptions().position(frutosbosque2).title("Central Frutos Del Bosque"));
+        mMap.addMarker(new MarkerOptions().position(frutosbosque3).title("Bodega Frutos Del Bosque"));
+        mMap.addMarker(new MarkerOptions().position(frutosbosque4).title("Tienda Frutos Del Bosque Ajeno"));
+        mMap.addMarker(new MarkerOptions().position(frutosbosque5).title("Recursos Frutos Del Bosque"));
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(frutosbosque));
         mMap.setMinZoomPreference(4.0F);
