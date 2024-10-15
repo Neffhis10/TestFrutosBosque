@@ -1,24 +1,18 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
-        mavenCentral()
-        gradlePluginPortal()
+        google() // Aquí debes tener el repositorio de Google
+        mavenCentral() // Repositorio de Maven Central
+        gradlePluginPortal() // Portal de plugins de Gradle
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) // Asegura que solo use los repositorios a nivel de proyecto
     repositories {
-        google()
-        mavenCentral()
+        google() // Repositorio de Google
+        mavenCentral() // Repositorio Maven Central
     }
 }
 
 rootProject.name = "frutossecoschillan2"
 include(":app")
- 

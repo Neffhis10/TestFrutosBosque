@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "316793968075",
+    "project_id": "frutosbosque-5663c",
+    "storage_bucket": "frutosbosque-5663c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316793968075:android:e9f0fc679b4d0c5623d24e",
+        "android_client_info": {
+          "package_name": "cl.ipgv.frutossecoschillan2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCugmgeEsEk6UqcKw62B4iXZAom9_NHZtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
